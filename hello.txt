@@ -1,9 +1,16 @@
 hello world!
+<<<<<<< HEAD
 ~~~~~~~~~~~~~~~~~~
-some change here~
 ~~~~~~~~~~~~~~~~~~
 hello world!
 hello world!
+=======
+*********************
+hot-fix-didi made change here to see difference with master
+****************************
+
+
+>>>>>>> hot-fix-didi
 hello world!
 hello world!
 hello world!
