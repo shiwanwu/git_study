@@ -1,5 +1,20 @@
-# git_study
-study git and practice related cmd
+This is a place for me to improve myself
 
-I have a smart donkey and never ride it 
-This morining ,I ride it to street 
+1. learn how to use git tools
+2. leatn python language
+3. others
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
