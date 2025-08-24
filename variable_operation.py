@@ -71,6 +71,32 @@ print(new_dict) # 输出: {'name': 'Alice', 'age': 21, 'city': 'New York'}
 print(dict_a)   # 输出: {'name': 'Alice', 'age': 20} (dict_a 本身没变)
 
 
+print(25*"*" + " add operation " + 25*"*")
+print("added items into list")
+my_list = [1, 2, 3]
+my_list.append(55)
+print(my_list) # 输出: [1, 2, 3, 55]
+other_list= [4, 5, 6]
+my_list.extend(other_list)
+print(my_list) # 输出: [1, 2, 3, 55, 4, 5, 6]
+
+print(25*"*" + " add operation " + 25*"*")
+print("added items into set")
+my_set = {1, 2, 3}
+print(my_set) # 输出: {1, 2, 3}
+my_set.add(3)
+print(my_set) # 输出: {1, 2, 3} (set 中不允许有重复元素)
+my_set.add(4)
+print(my_set) # 输出: {1, 2, 3} (set 中不允许有重复元素)
+my_set.update(other_list)
+print(my_set) # 输出: {1, 2, 3, 4, 5, 6}
+print(other_dict)
+my_set.update(other_dict)
+print(my_set) # 输出: {1, 2, 3, 4, 5, 6, 'name', 'age', 'gender', 'school'}
+
+
+
+
 
 
 
